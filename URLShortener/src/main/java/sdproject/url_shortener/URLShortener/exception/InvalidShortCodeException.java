@@ -1,0 +1,7 @@
+package sdproject.url_shortener.URLShortener.exception;
+
+public class InvalidShortCodeException extends RuntimeException {
+    public InvalidShortCodeException(String message) {
+        super(message);
+    }
+}
