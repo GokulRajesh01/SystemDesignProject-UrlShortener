@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: URLShortener
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/urlshortenerdb
+    username: root
+    password: rootpass
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  data:
+    redis:
+      host: localhost
+      port: 6379

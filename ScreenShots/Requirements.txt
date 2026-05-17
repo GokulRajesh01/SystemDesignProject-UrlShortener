@@ -1,0 +1,29 @@
+URL Shortener Lite
+
+-> Functional Requirements
+   a. should take in a long url and provide with a short url of maximum 10 characters
+   b. shortened url must go to main url upon mouse click.
+   c. shortened urls expire after 3 days
+   d. custom aliases cannot be provided in the initial implementation/release of the tool
+   e. analytics not applicable currently. 
+   f. Once a url is expired. The corresponding long url against a particular short url becomes detached and short url can be assigned to another long url on demand
+
+-> Non-Functional Requirements 
+	 a. option to scale must be present - High Scalability
+   b. Consistent enough
+   c. SHould be available
+
+-> Traffic Estimation 
+	 Estimated 100K users a day and atleast 1 Million redirect daily
+   Requests per second = 1 Million redirects per day = 1 Million/24/3600 req per second
+
+-> API End points 
+	 Rest APIs
+   POST /shorten
+   GET /{short_id}
+
+-> Data Model 
+	 Need more information on what Data Model is
+
+-> ID Generation Strategy
+	 I dont know you give me more insight into data model and id generation strategy for url making

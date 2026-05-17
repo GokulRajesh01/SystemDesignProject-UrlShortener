@@ -1,0 +1,14 @@
+target/
+.idea/
+*.iml
+
+# OS Files
+.DS_STORE
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment Files
+application-local.yaml
+.env
